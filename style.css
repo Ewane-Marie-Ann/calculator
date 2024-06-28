@@ -1,0 +1,69 @@
+body{
+    background-color: #272121;
+}
+.calculator {
+    background-color: #ce7171;
+    width: 300px;
+    margin: 50px auto;
+    border: 1px solid #f0e3e3;
+    padding: 20px;
+    border-style: dashed;
+    
+  }
+
+  #display {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  .buttons button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 5%;
+  }
+
+
+  /* ... (Basic styling as before) ... */
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns with equal width */
+    gap: 10px; /* Add spacing between buttons */
+  }
+
+  .buttons button {
+    /* ... (Button styling as before) ... */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+
+  .operator { /* New class for operator buttons */
+    background-color: #f0ad4e; /* Orange background for operators */
+    color: white;
+  }
+
+  .function { /* New class for function buttons */
+    background-color: #141213; /* Blue background for functions */
+    color: white;
+  }
+
+
+  /* ... (Basic styling as before) ... */
+
+.display-screen {
+    background-color: #fdf6f6; /* Dark background */
+    color: #272121; /* Light red text color (simulates LED/LCD) */
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: right; /* Align text to the right */
+    font-size: 24px; /* Larger font for better visibility */
+    border:  2px solid #555; /* Beveled border for a 3D effect */
+    box-shadow: inset 10px 15px 20px rgba(0, 0, 0, 0.5); /* Inner shadow for depth */
+    border-radius: 15px; /*to give a round shape at the edges*/
+    
+    
+  }
